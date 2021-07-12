@@ -1,0 +1,41 @@
+.list {
+  margin: 0 auto 15px;
+  padding: 0;
+  width: 320px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #889300;
+  box-shadow: rgba(0, 0, 0, 0.98) 0 5px 10px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.avatar {
+  margin: 0 10px;
+}
+
+.status {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: #987ee9;
+  border-radius: 50%;
+}
+
+.online {
+  composes: status;
+  background-color: greenyellow;
+}
+
+.offline {
+  composes: status;
+  background-color: red;
+}

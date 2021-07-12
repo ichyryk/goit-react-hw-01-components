@@ -1,0 +1,26 @@
+.table {
+  width: 600px;
+  text-align: center;
+  margin: 0 auto 15px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+}
+
+.table th {
+  padding: 10px;
+  background-color: lightskyblue;
+  color: white;
+}
+
+.table td {
+  padding: 10px;
+}
+
+.table tr:nth-child(2n + 1) {
+  background-color: rgb(243, 241, 241);
+}
+
+.table tr:nth-child(2n + 2) {
+  background-color: rgb(231, 229, 229);
+}
